@@ -262,9 +262,17 @@ body > header > div > ul > li > a {
 
 #productos > div > figure {
 	position: relative;
-	flex: 15%;
+	margin: 0 auto;
 	padding: 1em;
 	text-align: center;
+}
+
+#productos > div > figure > img {
+	border-radius: 3%;
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.04);
+	width: 200px;
+	height: 200px;
+	object-fit: contain;
 }
 
 #productos > div > figure > figcaption {

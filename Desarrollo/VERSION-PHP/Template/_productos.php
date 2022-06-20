@@ -19,7 +19,7 @@
 			<?php foreach ($product_shuffle as $item) {;
         ?>
 				<figure>
-					<img src="<?php echo $item['item_image'] ?? "img/EDIT-TEL_0000_picture.php.jpg" ?>" alt=""/>
+					<img src="<?php echo $item['item_image'] ?? "img/EDIT-TEL_0000_picture.php.jpg" ?>" alt="" id='img_telefonos'/>
 					<figcaption>
 						<h5></h5>
 						<button><a href="<?php printf('%s?item_id=%s', 'index3.php',  $item['item_id']); ?>">+</a></button>
