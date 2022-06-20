@@ -1,42 +1,42 @@
 * {
-    font-family: 'Gotham', sans-serif;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+	font-family: 'Gotham', sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
-    background-color: white;
+	background-color: white;
 }
 
 @font-face {
-    font-family: Gotham-Medium;
-    src:url(../Gotham-Medium.otf)
+	font-family: Gotham-Medium;
+	src: url(../Gotham-Medium.otf);
 }
 
 @font-face {
-    font-family: Gotham-Light;
-    src:url(../Gotham-Light.otf)
+	font-family: Gotham-Light;
+	src: url(../Gotham-Light.otf);
 }
 
 header {
-    margin: 0;
-    text-align: center;
-    width: 100%;
-    height: calc(94vh - 1em);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	height: calc(94vh - 1em);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .btn-flotante {
 	border-radius: 100px; /* Borde del boton */
 	background-color: whitesmoke; /* Color de fondo */
-    opacity: 80%;
+	opacity: 80%;
 	padding: 18px 30px; /* Relleno del boton */
 	position: fixed;
 	bottom: 40px;
@@ -44,18 +44,18 @@ header {
 	transition: all 300ms ease 0ms;
 	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 	z-index: 99;
-    width: 4.5%;
+	width: 4.5%;
 }
 
 #titulo > h3 {
-    font-size: 2em;
-    color: dimgrey;
-    font-family: Gotham-Light;
-    margin-left: 2.5%;
+	font-size: 2em;
+	color: dimgrey;
+	font-family: Gotham-Light;
+	margin-left: 2.5%;
 }
 
 .btn-flotante > img {
-    width: 40px;
+	width: 40px;
 }
 .btn-flotante:hover {
 	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
@@ -63,418 +63,409 @@ header {
 }
 
 body > header > img {
-    width: 30%;
-    margin-bottom: 2%;
+	width: 30%;
+	margin-bottom: 2%;
 }
 
 body > header > h2 {
-    font-family: Gotham-Medium;
-    font-size: 1.5em;
-    color: dimgrey;
+	font-family: Gotham-Medium;
+	font-size: 1.5em;
+	color: dimgrey;
 }
 
 body > header > div {
-    margin-top: 5em;
-    margin-right: 2em;
+	margin-top: 5em;
+	margin-right: 2em;
 }
 
 body > header > div > ul > li {
-    list-style: none;
+	list-style: none;
 }
 
 body > header > div > ul > li > a {
-    text-decoration: none;
-    color: white;
-    background-color: dimgrey;
-    border-radius: 1em;
-    padding: 1em;
-    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.1);
+	text-decoration: none;
+	color: white;
+	background-color: dimgrey;
+	border-radius: 1em;
+	padding: 1em;
+	box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
 #menu {
-    background-color: black;
-    opacity: 70%;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    display: block;
+	background-color: black;
+	opacity: 70%;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	display: block;
 }
 
 #menu > ul {
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-    padding: 2em;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
+	padding: 2em;
 }
 
 #menu > ul > li {
-    list-style: none;
+	list-style: none;
 }
 
 #menu > ul > li > a {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 #menu > ul > li > a:hover {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3em;
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
 }
 
 #intro {
-    max-width: 40%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding-top: 10%;
-    padding-bottom: 10%;
+	max-width: 40%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
 #intro > p {
-    font-family: 'Gotham-Light', sans-serif;
-    color: dimgrey;
-    font-size: 1.2em;
-    display: flex;
-    justify-content: center;
-    padding-top: 1em;
-    text-align: justify;
+	font-family: 'Gotham-Light', sans-serif;
+	color: dimgrey;
+	font-size: 1.2em;
+	display: flex;
+	justify-content: center;
+	padding-top: 1em;
+	text-align: justify;
 }
 
 .parallax1 {
-    height: 25em;
-    width: 100%;
-    background-image: url(../img/cassettess.jpg);
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
+	height: 25em;
+	width: 100%;
+	background-image: url(../img/cassettess.jpg);
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .parallax2 {
-    height: 25em;
-    width: 100%;
-    background-image: url(../img/shutterstock_2134564313.jpg);
-    background-position: top;
-    background-size: cover;
-    background-attachment: fixed;
+	height: 25em;
+	width: 100%;
+	background-image: url(../img/shutterstock_2134564313.jpg);
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .frasecita {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .frasecita > h3 {
-    text-align: center;
-    font-family: Gotham-Light;
-    font-size: 150%;
-    color: dimgrey;
+	text-align: center;
+	font-family: Gotham-Light;
+	font-size: 150%;
+	color: dimgrey;
 }
 
 .frasecita > h4 {
-    text-align: center;
-    font-family: Gotham-Light;
-    font-size: 80%;
-    color: dimgrey;
+	text-align: center;
+	font-family: Gotham-Light;
+	font-size: 80%;
+	color: dimgrey;
 }
 
 .dropbtn {
-    background-color: dimgrey;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    margin-left: 2.5%;
-    margin-bottom: 3%;
+	background-color: dimgrey;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	margin-left: 2.5%;
+	margin-bottom: 3%;
 }
 
-.dropbtn:hover, .dropbtn:focus {
-    background-color: white;
-    color: dimgrey;
-    border-color: dimgrey;
-    border-width: 1px;
-    border-style: solid;
+.dropbtn:hover,
+.dropbtn:focus {
+	background-color: white;
+	color: dimgrey;
+	border-color: dimgrey;
+	border-width: 1px;
+	border-style: solid;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: dimgray;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    margin-top: 3%;
-    margin-left: 2.3%;
+	display: none;
+	position: absolute;
+	background-color: dimgray;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	margin-top: 3%;
+	margin-left: 2.3%;
 }
 
 .dropdown-content > a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
 
 .dropdown-content > a:hover {
-    background-color: white;
-    color: dimgrey;
+	background-color: white;
+	color: dimgrey;
 }
 
 .show {
-    display:block;
+	display: block;
 }
 
 #productos {
-    margin: 0;
-    width: 100%;
-    padding-top: 5%;
-    margin-bottom: 10%;
+	margin: 0;
+	width: 100%;
+	padding-top: 5%;
+	margin-bottom: 10%;
 }
 
 #productos > h3 {
-    font-family: Gotham-Medium;
-    color: dimgrey;
-    letter-spacing: 0.06em;
-    font-size: 3em;
-    display: flex;
-    justify-content: center;
-    padding-top: 2em;
-    padding-bottom: 1em;
+	font-family: Gotham-Medium;
+	color: dimgrey;
+	letter-spacing: 0.06em;
+	font-size: 3em;
+	display: flex;
+	justify-content: center;
+	padding-top: 2em;
+	padding-bottom: 1em;
 }
 
-#productos  > div {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 18em;
-    width: 100%;
-    margin: auto;
-    padding: 6em;
+#productos > div {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 18em;
+	width: 100%;
+	margin: auto;
+	padding: 6em;
 }
 
-#productos  > div > figure {
-    position: relative;
-    flex: 15%;
-    padding: 1em;
-    text-align: center;
+#productos > div > figure {
+	position: relative;
+	flex: 15%;
+	padding: 1em;
+	text-align: center;
 }
 
-#productos > div > figure > img {
-    border-radius: 3%;
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.04);
-    width: 14em;
+#productos > div > figure > figcaption {
+	color: white;
+	background-color: white;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	text-align: justify;
+	padding-left: 5em;
+	padding-bottom: 2.5em;
+	text-align: center;
+	opacity: 0;
+	transition: 1s;
+	flex-direction: column;
 }
 
-#productos  > div > figure > figcaption {
-    color: white;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content:flex-end;
-    align-items: flex-start;
-    text-align: justify;
-    padding-left: 5em;
-    padding-bottom: 2.5em;
-    text-align: center;
-    opacity: 0;
-    transition: 1s;
-    flex-direction: column;
-}
-
-#productos  > div > figure:hover > figcaption {
-    opacity: 0.7;
+#productos > div > figure:hover > figcaption {
+	opacity: 0.7;
 }
 
 .telefonos > figure > figcaption > button > a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .telefonos > figure > figcaption > button {
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 .telefonos > figure > figcaption > button:hover {
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to bottom right, darkblue, darkred);
-    color: white;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	background: linear-gradient(to bottom right, darkblue, darkred);
+	color: white;
 }
 
 .telefonos > figure > figcaption > button > a:hover {
-
-    color: white;
+	color: white;
 }
 
 #televisores > figure > figcaption > button > a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 #televisores > figure > figcaption > button {
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 #televisores > figure > figcaption > button:hover {
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to bottom right, darkblue, darkred);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	background: linear-gradient(to bottom right, darkblue, darkred);
 }
 
 #televisores > figure > figcaption > button > p:hover {
-
-    color: white;
+	color: white;
 }
 
 #camaras > figure > figcaption > button > a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 #camaras > figure > figcaption > button {
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 #camaras > figure > figcaption > button:hover {
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to bottom right, darkblue, darkred);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	background: linear-gradient(to bottom right, darkblue, darkred);
 }
 
 #camaras > figure > figcaption > button > p:hover {
-
-    color: white;
+	color: white;
 }
 
 #consolas > figure > figcaption > button > a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 #consolas > figure > figcaption > button {
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 #consolas > figure > figcaption > button:hover {
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(to bottom right, darkblue, darkred);
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+	background: linear-gradient(to bottom right, darkblue, darkred);
 }
 
 #consolas > figure > figcaption > button > p:hover {
-
-    color: white;
+	color: white;
 }
 
 #footer {
-    background-color: dimgrey;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+	background-color: dimgrey;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1;
 }
 
 #footer > ul {
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-    padding: 2em;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
+	padding: 2em;
 }
 
 #footer > ul > li {
-    list-style: none;
+	list-style: none;
 }
 
-#footer > ul > li > a, p {
-    text-decoration: none;
-    color: white;
-    font-size: 0.75em;
-    font-family: 'Poppins', sans-serif;
+#footer > ul > li > a,
+p {
+	text-decoration: none;
+	color: white;
+	font-size: 0.75em;
+	font-family: 'Poppins', sans-serif;
 }
 
 #footer2 {
-    background-color: dimgrey;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+	background-color: dimgrey;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1;
 }
 
 #footer2 > ul {
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-    padding: 2em;
-    margin-right: 40%;
-    margin-left: 40%;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-around;
+	padding: 2em;
+	margin-right: 40%;
+	margin-left: 40%;
 }
 
 #footer2 > ul > li {
-    list-style: none;
+	list-style: none;
 }
 
-#footer2 > ul > li > a, p {
-    text-decoration: none;
-    color: white;
-    font-size: 0.6em;
-    font-family: 'Poppins', sans-serif;
+#footer2 > ul > li > a,
+p {
+	text-decoration: none;
+	color: white;
+	font-size: 0.6em;
+	font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 320px) {
-    
-    body {
-        width: 243%;
-        max-width: 800px;
-    } 
-    
-    header > h4 {
-        font-size: 1.5em;
-    }
-    
-    body > header {
-        height: 80.8em;
-    }
-    
-    #intro {
-        margin: auto;
-        text-align: center;
-    }
-    
-    .dropdown-content {
-    margin-top: 8%;
-}
-    
-    #footer2 > ul {
-    font-weight: bold;
-    display: flex;
-    justify-content: space-around;
-    padding: 2em;
-    margin-right: 10%;
-    margin-left: 10%;
-}
-    
-    .dropdown {
-        margin: auto;
-        text-align: center;
-    }
-}
+	body {
+		width: 243%;
+		max-width: 800px;
+	}
 
+	header > h4 {
+		font-size: 1.5em;
+	}
+
+	body > header {
+		height: 80.8em;
+	}
+
+	#intro {
+		margin: auto;
+		text-align: center;
+	}
+
+	.dropdown-content {
+		margin-top: 8%;
+	}
+
+	#footer2 > ul {
+		font-weight: bold;
+		display: flex;
+		justify-content: space-around;
+		padding: 2em;
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+
+	.dropdown {
+		margin: auto;
+		text-align: center;
+	}
+}

@@ -6,6 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<script src="js/script.js"></script>
 		<link rel="icon" href="img/FAV-ICON-02.png" />
+		<?php
+    // require functions.php file
+    require ('./functions.php');
+    ?>
 	</head>
 
 	<body>
